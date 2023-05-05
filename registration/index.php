@@ -66,9 +66,9 @@
         <label>Re-enter your password:</label>
         <input type="password" name="rpassword" placeholder="Re-enter your password" required><br/>
         <label>Enter your email-id:</label>
-        <input type="text" name="mail" placeholder="Enter your email" required><br/>
+        <input type="email" name="mail" placeholder="Enter your email" required><br/>
         <label>Enter your Mobile Number: (Optional)</label>
-        <input type="number" name="phn-number" placeholder="Enter your Phone Number"><br/>
+        <input type="text" name="phn-number" placeholder="Enter your Phone Number"><br/>
         <label>Select your gender:</label>
         <input type="radio" name="gender" value="male">Male
         <input type="radio" name="gender" value="female">Female
