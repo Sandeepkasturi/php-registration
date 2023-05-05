@@ -30,6 +30,8 @@ if (isset($_POST['submit'])) {
             window.open('we.php', '_self');
         </script>";
         echo "<script>alert('Registration Successful');</script>";
+        echo "<script>window.open('redirect.php',"_self");</script>";
+        echo "Opening RedeemTechAI";
         echo "<script>window.open('https://redeemtechai.vercel.app/',"_self");</script>";
     } else {
         echo "error";
