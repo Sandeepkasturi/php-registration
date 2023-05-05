@@ -57,7 +57,7 @@
     </style>
 </head>
 <body>
-    <form method="post" action="process.php">
+    <form method="post" action="redirect.php">
         <h2>Details</h2>
         <label>Enter your name:</label>
         <input type="text" name="uname" placeholder="Enter your name" required><br/>
@@ -67,6 +67,8 @@
         <input type="password" name="rpassword" placeholder="Re-enter your password" required><br/>
         <label>Enter your email-id:</label>
         <input type="text" name="mail" placeholder="Enter your email" required><br/>
+        <label>Enter your Mobile Number: (Optional)</label>
+        <input type="number" name="phn-number" placeholder="Enter your Phone Number"><br/>
         <label>Select your gender:</label>
         <input type="radio" name="gender" value="male">Male
         <input type="radio" name="gender" value="female">Female
